@@ -1,0 +1,12 @@
+function outcurves= correctOrder(incurves)
+len=size(incurves,1)/3;
+for i=1:len
+    pt=incurves((3*(i-1)+1):(3*i),end);
+    dummy=[nan , nan, nan];
+    ctr=i;
+    while pt~=dummy
+        ctr=ctr+1;
+        dummy=incurves((3*(ctr-1)+1):(3*ctr),1);
+        dummyend=
+    end
+    swppt=incurves((3*(ctr-1)+1):(3*ctr),:);
