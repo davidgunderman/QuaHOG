@@ -1,8 +1,14 @@
 # QuaHOG
 Quadrature for High-Order Geometries
 
-MATLAB codes for producing quadrature rules over high-order (polynomial or rational parametric) trimmed/intersected geometries in 2D. We plan to add 3D support. This code accompanies the article at the link below
+QuaHOG is a repository of MATLAB functions for producing quadrature rules over high-order (polynomial or rational parametric) trimmed/intersected geometries in 2D. We plan to add 3D support as well.
 
+The current version accompanies the paper
+
+<a id="1">[1]</a> 
+Gunderman, D., Weiss, K., Evans, J.A.. 
+Spectral mesh-free quadrature for planar regions bounded by rational parametric curves. 
+Computer Aided Design, 130(102944)  (2021).
 https://www.sciencedirect.com/science/article/abs/pii/S0010448520301378?via%3Dihub
 
 # License
